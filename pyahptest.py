@@ -8,4 +8,4 @@ with open('model.json') as json_model:
 ahp_model = parse(model)
 priorities = ahp_model.get_priorities()
 print(priorities)
-
+print("ok")
